@@ -116,6 +116,12 @@ body {
 .sidebar-purple {
 	background-color:#8000ff;
 }
+.sidebar-orange {
+	background-color:#FF5500;
+}
+.sidebar-green {
+	background-color:#00b33b;
+}
 
 
 
@@ -210,11 +216,7 @@ body {
 /*Enter Manually*/
 
 /*Orders*/
-.order-id {
-	font-size:14px;
-	text-transform:uppercase;
-	font-weight:600;
-}
+
 /*Orders*/
 
 
@@ -760,7 +762,7 @@ body {
 .prescription-pic-container {
 	background-color:#FFF;
 	margin-bottom:60px;
-	box-shadow:0 0 20px #222;
+	box-shadow:3px 3px 10px #222;
 }
 .prescription-pic-div {
 	padding:10px 0px 10px 0px;
@@ -796,10 +798,10 @@ body {
 }
 
 .ui-corner-all {
-	border-bottom-right-radius:10px;
-	border-bottom-left-radius:10px;
-	border-top-right-radius:10px;
-	border-top-left-radius:10px;
+	border-bottom-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-top-right-radius:100px;
+	border-top-left-radius:100px;
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover {
@@ -813,25 +815,29 @@ body {
 }
 .ui-widget-content {
 	border:none;
-	background:#777;
+	background:#ff5500;
 	opacity:0.8;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default {
 	border:none;
-	background:#000;
+	background:#ff5500;
 	opacity:0.8;
 }
 /*ENTER MANUALLY*/
 
 /*Orders*/
 .order-pic-container {
-	background-color:#FFF;
-	margin-top:30px;
-	box-shadow:0 0 20px #CCC;
+	
+	margin-top:0px;
+	box-shadow:0 2px 5px #AAA;
+	padding-right:0 !important;
+	padding-left:12px;
+	padding-top:0px;
+	margin-bottom:10px;
 }
 .order-pic-div {
-	padding:10px 0px 10px 0px;
+	padding:10px 0 10px 0;
 }
 .order-pic {
 	width:100%;
@@ -845,4 +851,70 @@ body {
 	width:100%;
 	height:100%;
 }
+.order-content {
+	background-color:#FFF;
+	padding-right:0px;
+	margin-right:0PX;
+	width:100%;
+}
+.order-id {
+	margin-bottom:0px;
+	margin-top:15px;
+	color:#777;
+	font-size:14px;
+	text-transform:uppercase;
+	float:left;
+}
+.actual-price {
+	margin-bottom:0px;
+	margin-top:10px;
+	color:#555;
+	font-size:22px;
+}
+.estimated-price {
+	margin-bottom:0px;
+	margin-top:10px;
+	color:#999;
+	font-size:14px;
+}
+.date {
+	margin-bottom:10px;
+	margin-top:10px;
+	color:#777;
+	font-size:14px;
+}
+.order-status {
+	margin-bottom:10px;
+	margin-top:0px;
+	color:#999;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.order-status-container {
+	padding-left:0px;
+}
+.order-repeat-div {
+	float:right;
+	padding:10px 0 10px 0;
+}
+.order-status-result {
+	padding-left:5px;
+}
+.estimated-price-padding {
+	padding-right:10px;
+}
 /*Orders*/
+
+/*Wallet*/
+.wallet-text {
+	color:#777;
+	font-size:18px;
+	margin-top:0px;
+}
+.wallet-help {
+	color:#428bca;
+	float:right;
+	font-size:16px;
+	margin-top:0px;
+}
+/*Wallet*/
