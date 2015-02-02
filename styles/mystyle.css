@@ -1025,8 +1025,31 @@ body {
 
 /*Contact Info*/
 .contact-body {
-	background:#FFF;
-	box-shadow: 0 0 50px #000;
 	
+}
+.textbox {
+	margin-top:0.9em;
+	margin-bottom:0.9em;
+	 
+}
+.form-control {
+	border-radius:0px;
+	border:none;
+	border-bottom: 1px solid #AAA;
+	-webkit-box-shadow:none;
+	background:#EEE;
+}
+
+.form-control:focus {
+  border-color: #060;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact-button {
+	text-align:center;
+	padding-top:1.5em;
+	padding-bottom:10px;
 }
 /*Contact Info*/
