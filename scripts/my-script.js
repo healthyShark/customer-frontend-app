@@ -27,3 +27,7 @@ $(function() {
             orientation: "horizontal"
 	});
   });
+  
+$(function() {
+$("input[type=checkbox]").switchButton();
+});

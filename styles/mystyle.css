@@ -948,3 +948,64 @@ body {
 }
 
 /*Wallet*/
+
+/*Book a Slot*/
+.popup {
+	 position:fixed;
+ 	 left:50%;
+}
+.slot-circle {
+	position:relative;
+	width:200px;
+	height:200px;
+	margin-left:20px;
+	margin-right:auto;
+	left:-50%;
+	margin-top:75px;
+	
+}
+
+.quarter {
+	position:absolute;
+	width:50%;
+	height:50%;
+	transition:background-color 0.2s ease-in-out;
+}
+.quarter:hover {
+	background-color:#EEE;
+}
+.quarter1 {
+	top:0;
+	left:0;
+	border-radius:100% 0 0 0;
+}
+.quarter2 {
+	top:0;
+	right:0;
+	border-radius:0 100% 0 0 ;
+}
+.quarter3 {
+	bottom:0;
+	left:0;
+	border-radius:0 0 0 100%;
+}
+.quarter4 {
+	bottom:0;
+	right:0;
+	border-radius:0 0 100% 0 ;
+}
+.cutout {
+	width:50%;
+	height:50%;
+	background-color:#EEE;
+	position:absolute;
+	top:25%;
+	left:25%;
+	border-radius:50%;
+	pointer-events:none;
+	}
+.today-tomorrow-group {
+	text-align:center;
+}
+
+/*Book a Slot*/
