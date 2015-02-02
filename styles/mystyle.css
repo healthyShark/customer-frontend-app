@@ -958,10 +958,11 @@ body {
 	position:relative;
 	width:200px;
 	height:200px;
-	margin-left:20px;
+	margin-left:auto;
 	margin-right:auto;
 	left:-50%;
 	margin-top:75px;
+	
 	
 }
 
@@ -1004,8 +1005,20 @@ body {
 	border-radius:50%;
 	pointer-events:none;
 	}
+	
 .today-tomorrow-group {
-	text-align:center;
+	width:300px;
+	height:40px;
+	text-transform:uppercase;
+	left:-50%;
+	padding-left:50px;
+	margin-top:20px;
+}
+.switch-button-label.off {
+	color:#777;
+}
+.switch-button-label {
+	font-size:14px;
 }
 
 /*Book a Slot*/

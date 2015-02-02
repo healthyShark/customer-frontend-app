@@ -28,6 +28,11 @@ $(function() {
 	});
   });
   
-$(function() {
-$("input[type=checkbox]").switchButton();
+$("input[type=checkbox]").switchButton({
+  	on_label: 'Tomorrow',
+  	off_label: 'Today',
+  	checked: false,
+	width:50,
+	height:15,
+	button_width: 25,
 });
