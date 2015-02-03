@@ -36,3 +36,12 @@ $("input[type=checkbox]").switchButton({
 	height:15,
 	button_width: 25,
 });
+
+$("#tabstrip").switchButton({
+  	on_label: 'TAB',
+  	off_label: 'STRIP',
+  	checked: false,
+	width:50,
+	height:15,
+	button_width: 25,
+});
