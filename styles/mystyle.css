@@ -1053,3 +1053,52 @@ body {
 	padding-bottom:10px;
 }
 /*Contact Info*/
+
+/*Order Info*/
+.order-status-result-danger {
+	padding-left:5px;
+	color:#d9534f;
+}
+.medicine-name-div {
+	padding:0px;
+}
+.medicine-price-div {
+	padding:0px;
+	
+}
+.medicine-quantity-div {
+	padding:0px;
+}
+.medicine-quantity-heading {
+	float:left;
+	line-height:1.3;
+}
+.medicine-price {
+	float:right;
+	padding-right:10px;
+	line-height:1.3;
+}
+.medicine-quantity {
+	padding-right:3px;
+}
+.medicine-unit-price {
+	padding-left:3px;
+}
+.rupee-symbol {
+	padding-right:3px;
+}
+.delivery-div {
+	margin-bottom:50px;
+}
+.address-field-div {
+	padding:0px;
+}
+.address-field-heading {
+	float:left;
+	line-height:1.5;
+	margin-bottom:0;
+	margin-top:0;
+	color:#999;
+	
+}
+/*Order Info*/
