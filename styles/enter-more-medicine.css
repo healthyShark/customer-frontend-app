@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*ENTER More Medicine*/
+.text {
+	color:#999;
+}
+.prescription-pic-container {
+	background-color:#FFF;
+	margin-bottom:60px;
+	box-shadow:3px 3px 10px #222;
+}
+.prescription-pic-div {
+	padding:10px 0px 10px 0px;
+	border-bottom:1px solid #EEE;
+}
+.prescription-pic {
+	width:100%;
+	height:100%;
+}
+.prescription-notes {
+	color:#777;
+}
+
+.add-medicine-icon-align {
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:15px;
+/*    margin-bottom: 70px; */
+    margin-bottom: 10%;
+}
+
+.span-add-note {
+	padding-right:20px;
+}
+
+.span-days {
+	padding-left:20px;
+	text-align:center;
+}
+
+.required-days {
+	text-align:center;
+}
+
+.ui-corner-all {
+	border-bottom-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-top-right-radius:100px;
+	border-top-left-radius:100px;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover {
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top:-.5em;
+}
+.ui-slider-horizontal {
+	height:0.1em;
+}
+.ui-widget-content {
+	border:none;
+	background:#ff5500;
+	opacity:0.8;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+	border:none;
+	background:#ff5500;
+	opacity:0.8;
+}
+/*ENTER more medicine*/
+
+

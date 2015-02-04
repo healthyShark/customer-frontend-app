@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Book a Slot*/
+.popup {
+	 position:fixed;
+ 	 left:50%;
+}
+.slot-circle {
+	position:relative;
+	width:200px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	left:-50%;
+	margin-top:75px;
+	
+	
+}
+
+.quarter {
+	position:absolute;
+	width:50%;
+	height:50%;
+	transition:background-color 0.2s ease-in-out;
+}
+.quarter:hover {
+	background-color:#EEE;
+}
+.quarter1 {
+	top:0;
+	left:0;
+	border-radius:100% 0 0 0;
+}
+.quarter2 {
+	top:0;
+	right:0;
+	border-radius:0 100% 0 0 ;
+}
+.quarter3 {
+	bottom:0;
+	left:0;
+	border-radius:0 0 0 100%;
+}
+.quarter4 {
+	bottom:0;
+	right:0;
+	border-radius:0 0 100% 0 ;
+}
+.cutout {
+	width:50%;
+	height:50%;
+	background-color:#EEE;
+	position:absolute;
+	top:25%;
+	left:25%;
+	border-radius:50%;
+	pointer-events:none;
+	}
+	
+.today-tomorrow-group {
+	width:300px;
+	height:40px;
+	text-transform:uppercase;
+	left:-50%;
+	padding-left:50px;
+	margin-top:20px;
+}
+.switch-button-label.off {
+	color:#777;
+}
+.switch-button-label {
+	font-size:14px;
+}
+
+/*Book a Slot*/
