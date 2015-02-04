@@ -8,6 +8,7 @@
         
         <title>healthyShark</title>
         <!-- build:css({.tmp,app}) styles/main.css -->
+        <link rel="stylesheet" href="bower_components/Slidebars-0.10.2/development/slidebars.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles/mystyle.css">
         <!-- endbuild -->
@@ -18,7 +19,20 @@
    	    <!--MAIN CONATINER ELEMENT OF BOOTSTRAP--> 
     	<div class="container-fluid" >
                 <div class="row">
-                    <h1 class="col-xs-12 title" id="nav-header"><!--<span class="header-arrow"><img src="image/left4-25.png"></span>--><span>Buy Medicine</span><span class="header-menu"><img src="image/menu-25.png"></span> </h1><!--DIV ENDS FOR MAIN TILE-->
+                    <h1 class="col-xs-12 title" id="nav-header"><!--<span class="header-arrow"><img src="image/left4-25.png"></span>--><span>Buy Medicine</span><span class="header-arrow"><div class="dropdown">
+  				
+    					<img id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" src="image/menu-25.png">
+  					
+  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Payment</a></li>
+    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Orders</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Estimation</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Feedback</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Help</a></li>
+  					</ul>
+</div></span> </h1><!--DIV ENDS FOR MAIN TILE-->
                     <div class="col-xs-12 icon-container icon-align">
                         <div class="circle icon-center  bg-pink" >
                             <p class="icon-text" >s</p>	
@@ -54,6 +68,7 @@
             
                 
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js" ></script>
+        <script type="text/javascript" src="bower_components/Slidebars-0.10.2/development/slidebars.js"></script>
  	    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="scripts/my-script.js"></script>
         <script type="text/javascript" src="scripts/index.js"></script>
