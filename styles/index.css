@@ -62,67 +62,12 @@
     .icon-text{
         font-size      : 90px;
     }
-    
-    .fixed {
-        font-size      : 20px;
-    	padding-bottom : 10px;
-    	height         : 65px;
-	    line-height    : 55px; 
-/*    	margin-bottom  : 65px;*/
-    }
-    
-    
-     .footer {
-        height:55px;
-    }
-    
-    .footer-menu-icon{
-        font-size       : 31px;
-        /*Set it according to the footer height */	
-        line-height     : 55px;
-        float           : none;
-		margin-left		: 25px;
-    }   
-
-
-    .footer-rupee-container{
-        font-size       : 31px;
-     
-    }
-    
-     
-    .footer-menu-rupee{
-/*        padding-right   : 5px; */
-        font-size       : 31px;
-    
-    }
-
-
-    /*Add margin at top of main row div*/
-    .main-area{
-        margin-top: 85px;      
-    }
-
-    
-  .header-menu {
-    position        : fixed;
-    left            : 8px;
-    line-height     : 55px;
-    font-size       : 25px;   
-   
-  }
-    
-    
+ 
     .icon-desc{
         font-size:25px;
         margin-top:13px;
         padding: 5px 15px 0 15px;
     }
-	
-	.menu-title-header {
-		font-size:25px;
-		padding-top:5px;
-	}
     .dropdown-menu {
 	min-width:400px;
 	
@@ -151,66 +96,13 @@
     .icon-text{
         font-size      : 112px;
     }
-    
-    .fixed {
-        font-size      : 25px;
-    	padding-bottom : 10px;
-    	height         : 81px;
-	    line-height    : 68px; 
-/*    	margin-bottom  : 65px;*/
-    }
-    
-    
-     .footer {
-        height:69px;
-    }
-    
-    .footer-menu-icon{
-        font-size       : 38px;
-        /*Set it according to the footer height */	
-        line-height     : 68px;
-        float           : none;
-		margin-left		: 32px;
-    }   
-
-
-    .footer-rupee-container{
-        font-size       : 39px;
-     
-    }
-    
-     
-    .footer-menu-rupee{
-/*        padding-right   : 5px; */
-        font-size       : 39px;
-    
-    }
-
-
-    /*Add margin at top of main row div*/
-    .main-area{
-        margin-top: 105px;      
-    }
-
-    
-  .header-menu {
-    position        : fixed;
-    left            : 8px;
-    line-height     : 68px;
-    font-size       : 31px;   
-   
-  }
-    
-    
+  
     .icon-desc{
         font-size:31px;
         margin-top:17px;
         padding: 0 15px 0 15px;
     }
 	
-	.menu-title-header {
-		font-size:31px;
-	}
      .dropdown-menu {
 	min-width:500px;
 	
@@ -243,74 +135,13 @@
      .icon-text{
         font-size      : 137px;
     }
-    
-    .fixed {
-        font-size      : 31px;
-    	padding-bottom : 10px;
-    	height         : 100px;
-	    line-height    : 81px; 
-       
-    }
-    
-    
-    .footer {
-        height         : 81px;
-    }
-    
-    
-    .footer-menu-icon{
-        font-size       : 48px;
-        /*Set it according to the footer height */	
-        line-height     : 81px;
-        float           : none;
-		margin-left		: 40px;
-
-    }  
-    
-    .footer-rupee-container{
-        font-size       : 50px;
-     
-    }
-    
-     
-    .footer-menu-rupee{
-        font-size       : 50px;
-    
-    }
-    
-    
-      /*Add margin at top of main row div*/
-    .main-area{
-        margin-top: 130px;      
-    }
-
-    
-    .header-menu {
-        position        : fixed;
-        left            : 15px;
-        line-height     : 81px;
-        font-size       : 40px;   
-
-    }
-
-
+ 
     .icon-desc{
             font-size   : 40px;
             margin-top  : 13px;
             padding     : 15px 15px 0 15px;
     }
 	
-	.menu-title-header {
-		font-size:41px;
-		padding-top:10px;
-	}
-    
-    
-    /*ALLIGNING THE ICONS IN position*/
-    .icon-align{
-	    padding-top:25px;
-        margin-bottom: 25%;
-    }
 	 .dropdown-menu {
 	min-width:625px;
 	
@@ -342,57 +173,6 @@
         font-size      : 158px;
     }
     
-    
-    .fixed {
-        font-size      : 36px;
-    	padding-bottom : 10px;
-    	height         : 115px;
-	    line-height    : 90px; 
-       
-    }
-    
-    
-    .footer {
-        height         : 90px;
-    }
-    
-    
-    .footer-menu-icon{
-        font-size       : 55px;
-        /*Set it according to the footer height */	
-        line-height     : 90px;
-        float           : none;
-		margin-left		: 50px;
-
-    }  
-    
-    .footer-rupee-container{
-        font-size       : 58px;
-     
-    }
-    
-     
-    .footer-menu-rupee{
-        font-size       : 58px;
-        padding-right   : 5px; 
-    
-    }
-    
-    
-      /*Add margin at top of main row div*/
-    .main-area{
-        margin-top: 150px;      
-    }
-
-    
-    .header-menu {
-        position        : fixed;
-        left            : 18px;
-        line-height     : 90px;
-        font-size       : 47px;   
-
-    }
-
 
     .icon-desc{
             font-size   : 46px;
@@ -401,18 +181,6 @@
             letter-spacing: 3px;
     }
     
-    
-    /*ALLIGNING THE ICONS IN position*/
-    .icon-align{
-	    padding-top:30px;
-        margin-bottom: 30%;
-    }
-	
-	.menu-title-header {
-		font-size:47px;
-		padding-top:10px;
-	}
-	
 	.dropdown-menu {
 	min-width:725px;
 	

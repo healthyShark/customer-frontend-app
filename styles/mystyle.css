@@ -156,8 +156,8 @@ body {
 
 /*------------------------More Colors--------------------------*/
 
-/*ADJUSTING THE CIRCLE*/
 
+/*---------------------------------------------Basic Design-------------------------------------------------*/ 
 /* Circle */
 .circle {
     border-radius: 50%;
@@ -260,21 +260,313 @@ body {
     margin   : auto;  
 }
 
+.icon-container{
+	padding-left:0px;
+	padding-right: 0px;
+}
 
 
-/*.title {
-	border-bottom  : 1px solid #DDD;
-	font-size      : 14px;
-    padding-bottom : 10px;
-    text-align     : center;
-	text-transform : uppercase;
-	font-weight	   : 600;
-	letter-spacing : 3px;
-	margin-top	   : 0px;
-	padding-top	   : 20px;
-	background	   : #FFF;
-	color		   : #777;
-}*/
+/*Ravi Css Start Here*/
+
+
+.footer-li {
+    display: inline;
+}
+
+/*---------------------------------------------Basic Design-------------------------------------------------*/ 
+
+
+
+
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+    
+    .fixed {
+        font-size      : 20px;
+    	padding-bottom : 10px;
+    	height         : 65px;
+	    line-height    : 55px; 
+/*    	margin-bottom  : 65px;*/
+    }
+    
+    
+     .footer {
+        height:55px;
+    }
+    
+    .footer-menu-icon{
+        font-size       : 31px;
+        /*Set it according to the footer height */	
+        line-height     : 55px;
+        float           : none;
+		margin-left		: 25px;
+    }   
+
+
+    .footer-rupee-container{
+        font-size       : 31px;
+     
+    }
+    
+     
+    .footer-menu-rupee{
+/*        padding-right   : 5px; */
+        font-size       : 31px;
+    
+    }
+
+
+    /*Add margin at top of main row div*/
+    .main-area{
+        margin-top: 85px;      
+    }
+
+    
+  .header-menu {
+    position        : fixed;
+    left            : 8px;
+    line-height     : 55px;
+    font-size       : 25px;   
+   
+  }
+    
+	.menu-title-header {
+		font-size:25px;
+		padding-top:5px;
+	}
+
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+    .fixed {
+        font-size      : 25px;
+    	padding-bottom : 10px;
+    	height         : 81px;
+	    line-height    : 68px; 
+/*    	margin-bottom  : 65px;*/
+    }
+    
+    
+     .footer {
+        height:69px;
+    }
+    
+    .footer-menu-icon{
+        font-size       : 38px;
+        /*Set it according to the footer height */	
+        line-height     : 68px;
+        float           : none;
+		margin-left		: 32px;
+    }   
+
+
+    .footer-rupee-container{
+        font-size       : 39px;
+     
+    }
+    
+     
+    .footer-menu-rupee{
+/*        padding-right   : 5px; */
+        font-size       : 39px;
+    
+    }
+
+
+    /*Add margin at top of main row div*/
+    .main-area{
+        margin-top: 105px;      
+    }
+
+    
+  .header-menu {
+    position        : fixed;
+    left            : 8px;
+    line-height     : 68px;
+    font-size       : 31px;   
+   
+  }
+	
+	.menu-title-header {
+		font-size:31px;
+	}
+    
+
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+    
+    .fixed {
+        font-size      : 31px;
+    	padding-bottom : 10px;
+    	height         : 100px;
+	    line-height    : 81px; 
+       
+    }
+    
+    
+    .footer {
+        height         : 81px;
+    }
+    
+
+    
+    .footer-menu-icon{
+        font-size       : 48px;
+        /*Set it according to the footer height */	
+        line-height     : 81px;
+        float           : none;
+		margin-left		: 40px;
+
+    }  
+    
+    .footer-rupee-container{
+        font-size       : 50px;
+     
+    }
+    
+     
+    .footer-menu-rupee{
+        font-size       : 50px;
+    
+    }
+    
+    
+      /*Add margin at top of main row div*/
+    .main-area{
+        margin-top: 130px;      
+    }
+
+    
+    .header-menu {
+        position        : fixed;
+        left            : 15px;
+        line-height     : 81px;
+        font-size       : 40px;   
+
+    }
+
+	.menu-title-header {
+		font-size:41px;
+		padding-top:10px;
+	}
+    
+    
+    /*ALLIGNING THE ICONS IN position*/
+    .icon-align{
+	    padding-top:25px;
+        margin-bottom: 25%;
+    }
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    .fixed {
+        font-size      : 36px;
+    	padding-bottom : 10px;
+    	height         : 115px;
+	    line-height    : 90px; 
+       
+    }
+    
+    
+    .footer {
+        height         : 90px;
+    }
+    
+    
+    .footer-menu-icon{
+        font-size       : 55px;
+        /*Set it according to the footer height */	
+        line-height     : 90px;
+        float           : none;
+		margin-left		: 50px;
+
+    }  
+    
+    .footer-rupee-container{
+        font-size       : 58px;
+     
+    }
+    
+     
+    .footer-menu-rupee{
+        font-size       : 58px;
+        padding-right   : 5px; 
+    
+    }
+    
+    
+      /*Add margin at top of main row div*/
+    .main-area{
+        margin-top: 150px;      
+    }
+
+    
+    .header-menu {
+        position        : fixed;
+        left            : 18px;
+        line-height     : 90px;
+        font-size       : 47px;   
+
+    }
+
+    /*ALLIGNING THE ICONS IN position*/
+    .icon-align{
+	    padding-top:30px;
+        margin-bottom: 30%;
+    }
+	
+	.menu-title-header {
+		font-size:47px;
+		padding-top:10px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
+
+
+
+
+
+
+
+
 
 
 /*Enter Manually*/
@@ -284,506 +576,6 @@ body {
 	text-align:center;
 }
 /*Enter Manually*/
-
-
-/*----------------------------------------------------AREA FOR IPHONE ADJUSTMENT----------------------------------------------------*/
-
-@media ( min-device-width : 100px) and (max-device-width: 330px)
-{
-
-    
-    /* Circle */
-    /* 12% decrease from normal value    */
-    .circle {
-        border-radius: 50%;
-        width  : 80px;
-        height : 80px;
-        line-height:70px;  
-    }
-
-
-    .icon-text{
-      font-family:"bariol", "lato";
-      font-size:67px;
-      /*letter-spacing:2px;*/
-      color:#fff;
-      text-align:center;
-	  padding-top:0px;
-    }
-
-
-    .title {
-        border-bottom  : 1px solid #DDD;
-        font-size      : 13px;
-        padding-bottom : 8px;
-        text-align     : center;
-		text-transform : uppercase;
-		font-weight	   : 600;
-		letter-spacing : 3px;
-		
-    }
-	.fixed {
-		font-size      : 13px;
-    	padding-bottom : 8px;
-	}
-	
-	#footer {
-		height:44px;
-	}
-	.footer-a {
-		padding-top:12px;
-	}
-
-	#footer-rate {
-		padding-top:15px;
-		font-size:13px;
-	}
-	
-	.add-note {
-		font-size:18px;
-	}
-
-
-    .icon-number{
-      font-family:"bariol", "lato";
-      font-size:44px;
-      /*letter-spacing:2px;*/
-      color:#fff;
-      text-align:center;
-       padding-top: 3px;
-    }
-
-    .icon-desc{
-        font-family:"lato";
-        font-size:9.6px;
-        letter-spacing:2px;
-        color:#3F3C3C;
-        text-align:center;
-        margin-top:7px;
-        font-weight:bold;
-        padding: 0px 8px 0px 8px;
-    }
-
-
-    .circle-notification{
-      line-height: 80px;
-      border-radius: 50%;
-      width  :80px;
-      height :80px;
-      /*    line-height:110px;*/
-      margin  :17px 0px 17px 0px; 
-
-    }
-
-
-}
-
-
-/* 20 % inc of initial value */
-@media ( min-device-width : 330px) and (max-device-width: 390px)
-{
-      .circle
-      {
-        width  :133px;
-        height :133px;
-        line-height:130px;
-      }
-
-
-     .icon-text
-     {
-       font-family:"bariol", "lato";
-       font-size:86px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center;
-     }
-    
-    .title 
-    {
-	border-bottom  : 1px solid #DDD;
-	font-size      : 17px;
-    padding-bottom : 12px;
-    text-align     : center;
-	text-transform : uppercase;
-	font-weight	   : 600;
-	letter-spacing : 3px;
-    }
-	
-	.fixed {
-		font-size      : 17px;
-    	padding-bottom : 12px;
-	}
-	#footer {
-		height:50px;
-	}
-	.footer-a {
-		padding-top:13px;
-	}
-
-	#footer-rate {
-		padding-top:15px;
-		font-size:15px;
-	}
-	.add-note {
-		font-size:20px;
-	}
-	
-
-    
-    .icon-desc
-    {
-        font-family:"lato";
-        font-size:14px;
-        letter-spacing:2px;
-        color:#3F3C3C;
-        text-align:center;
-        margin-top:10px;
-        font-weight:bold;
-    }
-    
-    
-    .circle-notification{
-        line-height: 133px;
-        border-radius: 50%;
-        width  :133px;
-        height :133px;
-        /*    line-height:110px;*/
-        margin  :24px 0px 24px 0px; 
-    
-    }
-    
-    .icon-number{
-       font-family:"bariol", "lato";
-       font-size:60px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center; 
-       
-   }
-     
-}
-
-
-
-/* 20% inc of prev value */
-@media ( min-device-width : 390px) and (max-device-width: 470px)
-{
-      .circle
-      {
-        width  :159px;
-        height :159px;
-        line-height:150px;
-      }
-
-
-     .icon-text
-     {
-       font-family:"bariol", "lato";
-       font-size:103px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center;
-     }
-    
-    .title 
-    {
-	border-bottom  : 1px solid #DDD;
-	font-size      : 20px;
-    padding-bottom : 14px;
-    text-align     : center;
-	text-transform : uppercase;
-	font-weight	   : 600;
-	letter-spacing : 3px;
-    }
-	
-	.fixed {
-		font-size      : 20px;
-    	padding-bottom : 14px;
-	}
-	#footer {
-		height:50px;
-	}
-	.footer-a {
-		padding-top:13px;
-	}
-
-	#footer-rate {
-		padding-top:15px;
-		font-size:15px;
-	}
-	
-	.add-note {
-		font-size:24px;
-	}
-    
-    .icon-desc
-    {
-        font-family:"lato";
-        font-size:17px;
-        letter-spacing:2px;
-        color:#3F3C3C;
-        text-align:center;
-        margin-top:12px;
-        font-weight:bold;
-    }
-    
-    
-    .circle-notification{
-        line-height: 159px;
-        border-radius: 50%;
-        width  :159px;
-        height :159px;
-        /*    line-height:110px;*/
-        margin  :29px 0px 29px 0px; 
-    
-    }
-    
-    .icon-number{
-       font-family:"bariol", "lato";
-       font-size:72px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center; 
-       
-   }
-    
-}
-
-
-
-/* 7% inc of prev value */
-@media ( min-device-width : 470px) and (max-device-width: 850px)
-{
-      .circle
-      {
-        width  :170px;
-        height :170px;
-        line-height:170px;
-      }
-
-
-       .icon-text
-     {
-       font-family:"bariol", "lato";
-       font-size:110px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center;
-     }
-    
-    .title 
-    {
-	border-bottom  : 1px solid #DDD;
-	font-size      : 21px;
-    padding-bottom : 15px;
-    text-align     : center;
-	text-transform : uppercase;
-	font-weight	   : 600;
-	letter-spacing : 3px;
-    }
-    
-	.fixed {
-		font-size      : 21px;
-   	    padding-bottom : 15px;
-	}
-	#footer {
-		height:50px;
-	}
-	.footer-a {
-		padding-top:13px;
-	}
-
-	#footer-rate {
-		padding-top:15px;
-		font-size:15px;
-	}
-
-	.add-note {
-		font-size:26px;
-	}
-    .icon-desc
-    {
-        font-family:"lato";
-        font-size:18px;
-        letter-spacing:2px;
-        color:#3F3C3C;
-        text-align:center;
-        margin-top:13px;
-        font-weight:bold;
-    }
-    
-    
-    .circle-notification{
-        line-height: 170px;
-        border-radius: 50%;
-        width  :170px;
-        height :170px;
-        /*    line-height:110px;*/
-        margin  :31px 0px 31px 0px; 
-    
-    }
-    
-    .icon-number{
-       font-family:"bariol", "lato";
-       font-size:77px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center; 
-       
-   }
-    
-
-}
-
-
-
-
-/* 25% inc of prev value */
-@media ( min-device-width : 850px) 
-{
-      .circle
-      {
-        width  :198px;
-        height :198px;
-        line-height:198px;
-      }
-
-
-     .icon-text
-     {
-       font-family:"bariol", "lato";
-       font-size:128px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center;
-     }
-
-    .title 
-    {
-    border-bottom  : 1px solid #DDD;
-    font-size      : 26px;
-    padding-bottom : 17px;
-    text-align     : center;
-	text-transform : uppercase;
-	font-weight	   : 600;
-	letter-spacing : 3px;
-    }
-	.fixed {
-		 font-size      : 26px;
-         padding-bottom : 17px;
-	}
-	#footer {
-		height:60px;
-	}
-	.footer-a {
-		padding-top:15px;
-	}
-
-	#footer-rate {
-		padding-top:18px;
-		font-size:18px;
-	}
-	
-	.add-note {
-		font-size:32px;
-	}
-    .icon-desc
-    {
-        font-family:"lato";
-        font-size:21px;
-        letter-spacing:2px;
-        color:#3F3C3C;
-        text-align:center;
-        margin-top:15px;
-        font-weight:bold;
-        padding: 0px 20px 0px 20px;
-    }
-
-
-    .circle-notification{
-        line-height: 198px;
-        border-radius: 50%;
-        width  :198px;
-        height :198px;
-        /*    line-height:110px;*/
-        margin  :36px 0px 36px 0px; 
-
-    }
-
-    .icon-number{
-       font-family:"bariol", "lato";
-       font-size:90px;
-       /*letter-spacing:2px;*/
-       color:#fff;
-       text-align:center; 
-
-   }
-
-}
-
-
-
-
-
-/*-----------------------------------------------------------------AREA ENDS FOR IPHONE ADJUSTMENT-------------------------------*/
-
-
-
-
-
-
-.icon-container{
-	padding-left:0px;
-	padding-right: 0px;
-}
-
-
-/*Ravi Css Start Here*/
-
-.small-circle {
-	border-radius:50%;
-	width:40px;
-	height:40px;
-}
-
-
-#footer-ul {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-	text-align:center;
-}
-
-.footer-li {
-    display: inline;
-}
-
-
-.footer-notification {
-	color:white;
-	font-weight:bold;
-}
-
-.footer-icon-align {
-	padding-left:0px;
-	padding-right:0px;
-}
-.header-arrow {
-	float:left;
-	margin-top:-3px;
-	
-}
-
-.header-menu {
-	float:right;
-}
-
-
-
-
 
 
 
