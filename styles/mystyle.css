@@ -768,13 +768,30 @@ body {
 	border-radius:0px;
 	box-shadow:none;
 	min-width:300px;
-	opacity:0.98;
+	opacity:1;
 	background:#333;
 	
 }
 .dropdown-menu>li>a {
 	line-height:5;
 	color:#FFF;
+}
+.menu-container {
+	margin-top:0px;
+	padding-right:0 !important;
+	padding-left:3px;
+	padding-top:0px;
+	margin-bottom:10px;
+}
+.menu-content {
+	background-color:#333;
+	padding-right:0px;
+	margin-right:0px;
+	width:100%;
+	opacity:1;
+}
+.menu-orange {
+	background-color:#FF5500;
 }
 /*Side Menu*/
 
