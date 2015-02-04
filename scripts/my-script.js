@@ -1,24 +1,36 @@
+(function () {
+    'use strict';
+    // this function is strict...
 
-$(function(){
     var nav = $('#nav-header'),
         pos = nav.offset();
+    
+//    $(document).ready(function () {
+//        $(document).scroll(function () {
+//            if($(this).scrollTop() > pos.top+nav.height() && nav.hasClass('title')){
+//                console.log("adding fixed");
+//                $('#nav-header').removeClass('title').addClass('fixed');
+//            }
+//            else{
+//                
+//                $('#nav-header').removeClass('fixed').addClass('title');
+//            }
+//        });
+//    });
 
-        $(window).scroll(function(){
-            if($(this).scrollTop() > pos.top+nav.height() && nav.hasClass('title')){
-                nav.fadeOut('fast', function(){
-                    $(this).removeClass('title').addClass('fixed').fadeIn();
-					//$(this).addClass('block_top_nav');
-                });
-            } else if($(this).scrollTop() <= pos.top && nav.hasClass('fixed')){
-                nav.fadeOut('fast', function(){
-					//$(this).removeClass('block_top_nav');
-                    $(this).removeClass('fixed').addClass('title').fadeIn();
-                });
-				
-            }
-        });
 
-});
+
+//    $(function () {
+//        $('#slider').slider({
+//			value: 100,
+//            animate : 'fast',
+//            orientation: 'horizontal'
+//	    });
+//    });
+    
+}());
+
+
 
 $(function() {
     $( "#slider" ).slider({

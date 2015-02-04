@@ -44,18 +44,42 @@ body {
 	margin:0 auto !important;
 }
 
+/*Pink*/
 .bg-pink {
 	background-color:#ff6b6b;
 }
+.bg-pink-darker {
+	background-color:#f05c5c;
+}
+.bg-pink-darkest {
+	background-color:#e14d4d;
+}
+/*Pink*/
 
+
+/*Bluish*/
 .bg-peterRiver{
 	background-color:#2f91f1;
 }
+.bg-peterRiver-darker{
+	background-color:#2082e2;
+}
+.bg-peterRiver-darkest{
+	background-color:#1173d3;
+}
+
+/*Bluish*/
 
 
-
+/*Green*/
 .bg-flatGreen{
 	background-color:#2ecc71;
+}
+.bg-flatGreen-darker{
+	background-color:#1fbd62;
+}
+.bg-flatGreen-darkest{
+	background-color:#10ae49;
 }
 
 .bg-flatGreen: hover{
@@ -63,10 +87,14 @@ body {
     
 }
 
+/*Green*/
+
+
+
+/*------------------------More Colors--------------------------*/
 .bg-darkGreen{
 	background-color:#26a95d;
 }
-
 
 /*DARK RED*/
 .bg-alizarin{
@@ -126,76 +154,115 @@ body {
 	background-color:#db4437;
 }
 
-
+/*------------------------More Colors--------------------------*/
 
 /*ADJUSTING THE CIRCLE*/
 
 /* Circle */
 .circle {
     border-radius: 50%;
-    width  :110px;
-    height :110px;
-/*    line-height:110px;*/
+    width  :150px;
+    height :150px;
+    line-height:150px;
     margin  :20px 0px 20px 0px;   
 }
 
-
-
-
 .icon-text{
   font-family:"bariol", "lato";
-  font-size:76px;
+  font-size:80px;
   /*letter-spacing:2px;*/
   color:#fff;
   text-align:center;
+ }
  
-}
-
-#footer {
-	position:fixed;
-	bottom:0;
-	left:0;
-	right:0;
-	height:50px;
-	background:#FFF;
-	box-shadow: 0 0 5px #BBB;
-	border-top:1px solid #DDD;
-}
-.footer-a {
-    float: left;
-    width: 25%;
-    text-decoration: none;
-	color:#777;
-	padding-top:13px;
-}
-
-#footer-rate {
+ /*ALLIGNING THE ICONS IN position*/
+.icon-align{
+	padding-left:0;
+	padding-right:0;
 	padding-top:15px;
-	font-size:15px;
-	letter-spacing:1.3px;
+    margin-bottom: 22%;
 }
 
-
-.title {
-	border-bottom  : 1px solid #DDD;
-	font-size      : 14px;
-    padding-bottom : 10px;
-    text-align     : center;
-	text-transform : uppercase;
-	font-weight	   : 600;
-	letter-spacing : 3px;
-	margin-top	   : 0px;
-	padding-top	   : 20px;
-	background	   : #FFF;
-	color		   : #777;
+.footer {
+	background:#2f4154;
+    bottom:0;
+    height:47px;
+    left:0;
+    position:fixed;
+	right:0;
 }
 
 .fixed {
 	position: fixed;
-	top: -1px;
+	top : 0;
 	left: 0;
-	width: 100%;
-	z-index:100;
+	z-index:1000;
+	font-size      : 17px;
+    padding-bottom : 10px;
+    text-align     : center;
+	text-transform : uppercase;
+	font-weight	   : 600;
+	letter-spacing : 3px;
+	margin-top	   : 0;
+    height         : 47px;
+    line-height    : 47px;  
+	background	   : #2f4154;
+	color		   : #FFF;
+    padding-right  : 0;  
+	display		   : block !important;
+}
+.footer-menu-icon{
+    color           : #FFF;
+    font-size       : 24px;
+    line-height     : 47px;
+    float           : none;
+}   
+
+.footer-rupee-container{
+    font-style      : normal;
+    font-size       : 24px;
+}
+
+
+/*Add margin at top of main row div*/
+.main-area{
+    margin-top: 57px;   
+    
+}
+.footer-menu-rupee{
+    padding-right   : 3px;  
+    font-size       : 24px;
+    
+}
+
+.icon-desc{
+	font-family:"lato";
+	font-size:13px;
+	letter-spacing:2px;
+	color:#3F3C3C;
+	text-align:center;
+	margin-top:10px;
+	font-weight:bold;
+    padding: 0 13px 0 13px;
+}
+
+
+.header-menu {
+    position        : fixed;
+    left            : 6px;
+    line-height     : 47px;
+    font-size       : 20px;
+}
+
+/*Another way of allining a fixed element to center */
+.menu-title-header{
+    display  : table;
+    margin   : auto;  
+}
+
+
+
+/*.title {
 	border-bottom  : 1px solid #DDD;
 	font-size      : 14px;
     padding-bottom : 10px;
@@ -207,8 +274,8 @@ body {
 	padding-top	   : 20px;
 	background	   : #FFF;
 	color		   : #777;
-	display		   : block !important;
-}
+}*/
+
 
 /*Enter Manually*/
 .add-note {
@@ -218,42 +285,6 @@ body {
 }
 /*Enter Manually*/
 
-/*Orders*/
-
-/*Orders*/
-
-
-
-.icon-number{
-  font-family:"bariol", "lato";
-  font-size:50px;
-  /*letter-spacing:2px;*/
-  color:#fff;
-  text-align:center;
-   padding-top: 3px;
-}
-
-.icon-desc{
-	font-family:"lato";
-	font-size:11px;
-	letter-spacing:2px;
-	color:#3F3C3C;
-	text-align:center;
-	margin-top:8px;
-	font-weight:bold;
-    padding: 0px 10px 0px 10px;
-}
-
-
-.circle-notification{
-  line-height: 110px;
-  border-radius: 50%;
-  width  :110px;
-  height :110px;
-  /*    line-height:110px;*/
-  margin  :20px 0px 20px 0px; 
-    
-}
 
 /*----------------------------------------------------AREA FOR IPHONE ADJUSTMENT----------------------------------------------------*/
 
@@ -707,14 +738,6 @@ body {
 	padding-right: 0px;
 }
 
-/*ALLIGNING THE ICONS IN position*/
-.icon-align{
-	padding-left:0px;
-	padding-right:0px;
-	padding-top:15px;
-/*    margin-bottom: 70px; */
-    margin-bottom: 20%;
-}
 
 /*Ravi Css Start Here*/
 

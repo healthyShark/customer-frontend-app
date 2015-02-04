@@ -10,7 +10,9 @@
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="bower_components/Slidebars-0.10.2/development/slidebars.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="styles/mystyle.css">
+        <link rel="stylesheet" href="styles/index.css">
         <!-- endbuild -->
 
     </head>
@@ -18,23 +20,28 @@
     <body>
    	    <!--MAIN CONATINER ELEMENT OF BOOTSTRAP--> 
     	<div class="container-fluid" >
-                <div class="row">
-                    <h1 class="col-xs-12 title" id="nav-header"><!--<span class="header-arrow"><img src="image/left4-25.png"></span>--><span>Buy Medicine</span><span class="header-arrow"><div class="dropdown">
-  				
-    					<img id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" src="image/menu-25.png">
-  					
-  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    					<li role="presentation" class="menu-container menu-orange"><a class="menu-content" role="menuitem" tabindex="-1" href="#">Payment</a></li>
-    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Orders</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Estimation</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Feedback</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Help</a></li>
-  					</ul>
-</div></span> </h1><!--DIV ENDS FOR MAIN TILE-->
+        <h1 class="col-xs-12 fixed" id="nav-header">
+                 <span class="menu-title-header">Buy Medicine</span>
+                 <!--<img id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" src="images/menu-64.png">-->
+                 	<div class="dropdown">
+  						<span class="glyphicon glyphicon-align-justify dropdown-toggle header-menu" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true"></span>
+  						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Payment</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Orders</a></li>
+                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Estimation</a></li>
+                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Feedback</a></li>
+                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Help</a></li>
+  						</ul>
+					</div>
+                 </span> 
+         </h1><!--DIV ENDS FOR MAIN TILE-->
+         
+         
+            <div class="row main-area">
                     <div class="col-xs-12 icon-container icon-align">
-                        <div class="circle icon-center  bg-pink" >
+                        <div class="circle icon-center bg-pink" >
                             <p class="icon-text" >s</p>	
                         </div>
                         <p class="icon-desc">SEND PRESCRIPTION</p>
@@ -55,24 +62,39 @@
                             <p class="icon-desc">CALL US</p>
                         </div><!--div ends for icon container-->
                 </div><!---DIV ENDS FOR ROW AREA-->
-               </div><!--DIV ENDS FOR CONTAINER-FLUID-->
-
-                <footer id="footer">
-    				<ul id="footer-ul">
-						<li class="footer-li"><a class="footer-a" href="#"><img src="image/money_bag-25.png"><!--<span class="small-circle icon-container footer-icon-align icon-center bg-darkOrange"><span class="icon-desc  footer-notification">5</span></span>--></a></li>
-						<li class="footer-li"><a class="footer-a" href="#"><img src="image/briefcase_filled-25.png"></a></li>
-						<li class="footer-li"><a id="footer-rate" class="footer-a" href="#"><p><span>&#8377; </span><span>900</span></p></a></li>
-						<li class="footer-li"><a class="footer-a" href="#"><img src="image/user_male-25.png"></a></li>
-					</ul>
-    			</footer>
-            
                 
-		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js" ></script>
-        <script type="text/javascript" src="bower_components/Slidebars-0.10.2/development/slidebars.js"></script>
+                
+              
+                <footer class="footer row">
+                <ul class="footer-ul col-xs-12">
+                        <li class="footer-li col-xs-3"><a href="#"><i  class="footer-menu-icon fa fa-cart-plus" ></i></a></li>
+
+                        <li class="footer-li col-xs-3"><a  href="#"><i class="footer-menu-icon footer-rupee-container"><span class="footer-menu-rupee">&#8377;</span><span >900</span></i></a></li>
+
+                        <li class="footer-li col-xs-3"><a href="#"><i  class="footer-menu-icon fa fa-credit-card"></i></a></li>
+
+
+                       <li class="footer-li col-xs-3" ><a   href="#"><i class="footer-menu-icon fa fa-user"></i></a></li>
+                </ul>
+            </footer>
+          </div><!--DIV ENDS FOR CONTAINER-FLUID-->
+
+                
+		<!-- PHONE GAP SUPPORT-->
+      <script type="text/javascript" src="cordova.js"></script>-->
+	
+        <!-- build:js scripts/index.js -->
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js" ></script>
  	    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="scripts/my-script.js"></script>
+        <script type="type/javascript" src="scripts/models/models.js"></script>
+        <script type="text/javascript" src="scripts/collections/collections.js"></script>
+        <script type="text/javascript" src="scripts/views/app-pages.js"></script>
+        <script type="text/javascript" src="scripts/views/views.js"></script>
+        <script type="text/javascript" src="scripts/routers/routers.js"></script>
+        <script type="text/javascript" src="scripts/app-main/app-main.js"></script>
         <script type="text/javascript" src="scripts/index.js"></script>
-        
+        <script type="text/javascript" src="scripts/my-script.js"></script>
+        <!-- endbuild -->
        
     </body>
    
