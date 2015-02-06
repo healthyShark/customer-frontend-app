@@ -32,7 +32,13 @@
 	padding-right:0px;
 	margin-right:0PX;
 	width:100%;
+	box-shadow:0 2px 5px #AAA;
+	margin-bottom:10px;
+
 }
+
+
+
 .order-id {
 	margin-bottom:0px;
 	margin-top:15px;
@@ -66,6 +72,10 @@
 	font-size:14px;
 	text-transform:uppercase;
 }
+.repeat-icon {
+	font-size:20px;
+}
+
 .order-status-container {
 	padding-left:0px;
 }
@@ -80,5 +90,196 @@
 	padding-right:10px;
 }
 /*Orders*/
+
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+	.order-id {
+		margin-top:18px;
+		font-size:25px;
+	}
+	.actual-price {
+		margin-top:15px;
+		font-size:35px;
+	}
+	.estimated-price {
+		margin-top:15px;
+		font-size:25px;
+	}
+	.date {
+		margin-top:15px;
+		font-size:25px;
+	}
+	.order-status {
+		margin-top:10px;
+		font-size:25px;
+
+	}
+	.repeat-icon {
+		font-size:23px;
+	}
+	
+	.sidebar-purple {
+		border-left:14px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:14px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:14px solid #00b33b;
+	}
+
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+   .order-id {
+		margin-top:22px;
+		font-size:31px;
+	}
+	.actual-price {
+		margin-top:15px;
+		font-size:44px;
+	}
+	.estimated-price {
+		margin-top:15px;
+		font-size:31px;
+	}
+	.date {
+		margin-top:15px;
+		font-size:31px;
+	}
+	.order-status {
+		margin-top:13px;
+		font-size:31px;
+
+	}
+	.repeat-icon {
+		font-size:29px;
+	}
+	
+	.sidebar-purple {
+		border-left:17px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:17px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:17px solid #00b33b;
+	}
+
+
+	
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+    .order-id {
+		margin-top:26px;
+		font-size:39px;
+	}
+	.actual-price {
+		margin-top:19px;
+		font-size:55px;
+	}
+	.estimated-price {
+		margin-top:19px;
+		font-size:39px;
+	}
+	.date {
+		margin-top:19px;
+		font-size:39px;
+	}
+	.order-status {
+		margin-top:17px;
+		font-size:39px;
+
+	}
+	.repeat-icon {
+		font-size:36px;
+	}
+	
+	.sidebar-purple {
+		border-left:20px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:20px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:20px solid #00b33b;
+	}
+
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    
+    .order-id {
+		margin-top:30px;
+		font-size:40px;
+	}
+	.actual-price {
+		margin-top:22px;
+		font-size:58px;
+	}
+	.estimated-price {
+		margin-top:22px;
+		font-size:40px;
+	}
+	.date {
+		margin-top:22px;
+		font-size:40px;
+	}
+	.order-status {
+		margin-top:19px;
+		font-size:40px;
+
+	}
+	.repeat-icon {
+		font-size:41px;
+	}
+	.sidebar-purple {
+		border-left:25px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:25px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:25px solid #00b33b;
+	}
+
+}
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
+
 
 
