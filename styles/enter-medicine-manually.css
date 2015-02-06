@@ -8,24 +8,415 @@
 	float:right;
 	text-transform:uppercase;
 }
+
+.manually-page-margin {
+	margin-bottom:4em;
+	margin-top:1.5em;
+}
+
+
+.textbox {
+	margin-top:0.9em;
+	margin-bottom:0.9em;
+	 
+}
+.form-control {
+	border-radius:0px;
+	border:none;
+	border-bottom: 1px solid #AAA;
+	-webkit-box-shadow:none;
+	background:#EEE;
+	font-size:24px;
+	height:60px;
+	padding-top:25px;
+}
+
+.form-control:focus {
+  border-color: #060;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*.order-pic-container {
+	
+	margin-top:0px;
+	
+	padding-right:0 !important;
+	padding-left:12px;
+	padding-top:0px;
+	
+}*/
+
+	.switch-button-label {
+		font-size:20px;
+	}
+	.switch-button-background { 
+		height:20px !important;
+		width:60px !important;
+	}
+	.switch-button-button {
+		height:20px !important;
+		width:44px !important;
+	}
+
+.order-content {
+	background-color:#FFF;
+	padding-right:0px;
+	margin-right:0PX;
+	width:100%;
+	box-shadow:0 2px 5px #AAA;
+	margin-bottom:10px;
+	height:50px;
+	vertical-align:central;
+}
+.medicine-name-div {
+	padding-top:5px;
+	padding-left:0px;
+}
+.medicine-name {
+	font-size:20px;
+}
+.medicine-quantity-heading {
+	font-size:20px;
+}
+.medicine-quantity-div {
+	padding-top:5px;
+}
 .tab-strip {
 	float:right;
 	padding-right:10px;
 	line-height:1.3;
 	text-transform:uppercase;
+	font-size:20px;
 }
-.manually-page-margin {
-	margin-bottom:4em;
-	margin-top:1.5em;
+.medicine-price-div {
+	padding-top:5px;
+}
+.btn {
+	font-size:20px;
+	padding:5px 20px;
+}
+.medicine-enter-manually-button {
+	margin-top:50px;
+	text-align:center;
+	margin-bottom:75px;
 }
 .switch-enter-manually {
 	margin-bottom:0px;
-	margin-top:2em;
+	margin-top:40px !important;
 }
-.medicine-enter-manually-button {
-	margin-top:30px;
-	text-align:center;
+.manually-bottom-margin {
+	margin-bottom:50px;
+	padding-left:0px !important;
+}
+.sidebar-purple {
+	border-left:12px solid #8000ff;
+}
+.sidebar-orange {
+	border-left:12px solid #FF5500;
+	
+}
+.sidebar-green {
+	border-left:12px solid #00b33b;
 }
 /*Enter Medicine Manually*/
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+    .form-control {
+		font-size:35px;
+		height:60px;
+		padding-top:25px;
+	}
+	.switch-button-label {
+		font-size:25px;
+	}
+	.switch-button-background { 
+		height:30px !important;
+		width:100px !important;
+	}
+	.switch-button-button {
+		height:30px !important;
+		width:74px !important;
+	}
+	.order-content {
+	margin-bottom:10px;
+	height:75px;
+	}
+	.medicine-name-div {
+		padding-top:15px;
+		padding-left:0px;
+	}
+	.medicine-name {
+		font-size:28px;
+	}
+	.medicine-quantity-heading {
+		font-size:25px;
+	}
+	.medicine-quantity-div {
+		padding-top:15px;
+	}
+	.tab-strip {
+		font-size:25px;
+	}
+	.medicine-price-div {
+		padding-top:13px;
+	}
+	.btn {
+		font-size:25px;
+		padding:10px 30px;
+	}
+	.medicine-enter-manually-button {
+		margin-top:50px;
+		margin-bottom:75px;
+	}
+	.switch-enter-manually {
+		margin-bottom:0px;
+		margin-top:37px !important;
+	}
+	.manually-bottom-margin {
+		margin-bottom:50px;
+	}
+	.sidebar-purple {
+		border-left:14px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:14px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:14px solid #00b33b;
+	}
+ 
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+    .form-control {
+		font-size:37px;
+		height:75px;
+		padding-top:31px;
+	}
+	.switch-button-label {
+		font-size:31px;
+	}
+	.switch-button-background { 
+		height:38px !important;
+		width:125px !important;
+	}
+	.switch-button-button {
+		height:38px !important;
+		width:100px !important;
+	}
+	.order-content {
+		margin-bottom:13px;
+		height:93px;
+	}
+	.medicine-name-div {
+		padding-top:19px;
+		padding-left:0px;
+	}
+	.medicine-name {
+		font-size:35px;
+	}
+	.medicine-quantity-heading {
+		font-size:31px;
+	}
+	.medicine-quantity-div {
+		padding-top:19px;
+	}
+	.tab-strip {
+		font-size:31px;
+	}
+	.medicine-price-div {
+		padding-top:16px;
+	}
+	.btn {
+		font-size:31px;
+		padding:13px 38px;
+	}
+	.medicine-enter-manually-button {
+		margin-top:63px;
+		margin-bottom:94px;
+	}
+	.switch-enter-manually {
+		margin-bottom:0px;
+		margin-top:45px !important;
+	}
+	.manually-bottom-margin {
+		margin-bottom:63px;
+	}
+	.sidebar-purple {
+		border-left:17px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:17px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:17px solid #00b33b;
+	}
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+   .form-control {
+		font-size:45px;
+		height:99px;
+		padding-top:39px;
+	}
+	.switch-button-label {
+		font-size:38px;
+	}
+	.switch-button-background { 
+		height:47px !important;
+		width:157px !important;
+	}
+	.switch-button-button {
+		height:47px !important;
+		width:133px !important;
+	}
+	.order-content {
+		margin-bottom:17px;
+		height:117px;
+	}
+	.medicine-name-div {
+		padding-top:24px;
+		padding-left:0px;
+	}
+	.medicine-name {
+		font-size:44px;
+	}
+	.medicine-quantity-heading {
+		font-size:39px;
+	}
+	.medicine-quantity-div {
+		padding-top:25px;
+	}
+	.tab-strip {
+		font-size:39px;
+	}
+	.medicine-price-div {
+		padding-top:20px;
+	}
+	.btn {
+		font-size:39px;
+		padding:17px 48px;
+	}
+	.medicine-enter-manually-button {
+		margin-top:79px;
+		margin-bottom:118px;
+	}
+	.switch-enter-manually {
+		margin-bottom:0px;
+		margin-top:56px !important;
+	}
+	.manually-bottom-margin {
+		margin-bottom:79px;
+	}
+	.sidebar-purple {
+		border-left:20px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:20px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:20px solid #00b33b;
+	}
+	
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    .form-control {
+		font-size:58px;
+		height:115px;
+		padding-top:45px;
+	}
+	.switch-button-label {
+		font-size:44px;
+	}
+	.switch-button-background { 
+		height:54px !important;
+		width:180px !important;
+	}
+	.switch-button-button {
+		height:54px !important;
+		width:155px !important;
+	}
+	.order-content {
+		margin-bottom:20px;
+		height:135px;
+	}
+	.medicine-name-div {
+		padding-top:28px;
+		padding-left:0px;
+	}
+	.medicine-name {
+		font-size:51px;
+	}
+	.medicine-quantity-heading {
+		font-size:45px;
+	}
+	.medicine-quantity-div {
+		padding-top:29px;
+	}
+	.tab-strip {
+		font-size:45px;
+	}
+	.medicine-price-div {
+		padding-top:23px;
+	}
+	.btn {
+		font-size:45px;
+		padding:20px 55px;
+	}
+	.medicine-enter-manually-button {
+		margin-top:90px;
+		margin-bottom:136px;
+	}
+	.switch-enter-manually {
+		margin-bottom:0px;
+		margin-top:64px !important;
+	}
+	.manually-bottom-margin {
+		margin-bottom:91px;
+	}
+	.sidebar-purple {
+		border-left:25px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:25px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:25px solid #00b33b;
+	}
+	
+	
+
+}
+
+
 
 

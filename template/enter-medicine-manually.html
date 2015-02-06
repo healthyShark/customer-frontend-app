@@ -10,6 +10,7 @@
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="../bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css">
         <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="../bower_components/jQuery-switchButton-master/jquery.switchButton.css">
        <!-- <link rel="stylesheet" href="../bower_components/flat-ui/dist/css/flat-ui.css">-->
         <link rel="stylesheet" href="../styles/mystyle.css">
@@ -22,14 +23,19 @@
     <body>
    	    <!--MAIN CONATINER ELEMENT OF BOOTSTRAP--> 
     	<div class="container-fluid" >
-                <div class="row">
-                   <h1 class="col-xs-12 title" id="nav-header"><span class="header-arrow"><img src="../image/left4-25.png"></span><span >Enter Medicine Manually</span></h1><!--DIV ENDS FOR MAIN TILE-->
+          
+                    <h1 class="col-xs-12 fixed" id="nav-header">
+                 		<span class="menu-title-header">Enter Medicine</span>
+                 		<span class="glyphicon glyphicon-chevron-left header-menu"></span>
+        			</h1><!--DIV ENDS FOR MAIN TILE-->
                    
        <!--BLOCK FIRST START HERE---------------------------------------------------------------------------->
-                   <div class="col-xs-12 "><!--div for enter medicine manually -->
+       			<div class="row main-area">
+                   <div class="col-xs-12 textbox"><!--div for enter medicine manually -->
                    		<input type="text" class="form-control" placeholder="Enter Medicine Name">
                    </div><!--Enter Medicine Manually-->
-                   
+                 
+                 <div class=" col-xs-12 manually-bottom-margin">
                    <div class="col-xs-5 textbox manually-page-margin"><!--Quantity-->
                    		<input type="text" class="form-control" placeholder="Quantity">
                    </div><!--Quantity-->
@@ -37,16 +43,16 @@
                    <div class="col-xs-7 switch-enter-manually textbox manually-page-margin"><!--Quantity-->
                    		<input id="tabstrip" class="tab-strip-switch" type="checkbox" value="1" checked>
                    </div><!--Quantity-->
+                  </div>
        <!--BLOCK FIRST END HERE------------------------------------------------------------------------------------------->                
                        
         <!--BLOCK SECOND START HERE---------------------------------------------------------------------------------------->
         
         <!--Block of list of medicine start here--------------------------------------------------------------------------->
         	<div class="col-xs-12"><!--List of medicine Start Here-->
-                       		<div class="col-xs-12 order-pic-container sidebar-orange">
-                            	<div class="col-xs-12 order-content"> 
+                            	<div class="col-xs-12 order-content  sidebar-orange"> 
                             	<div class="col-xs-7 medicine-name-div"><!--Name of Medicine Start Here-->
-                                	<h4>Amoxoclave 500</h4>
+                                	<h4 class="medicine-name">Amoxoclave 500</h4>
                                 </div><!--Name of Medicine End Here-->
                                 
                                 <div class="col-xs-2 medicine-quantity-div"><!--Quantity-->
@@ -58,16 +64,14 @@
                                 	<h5 class="tab-strip">Tab</h5>
                                 </div><!--Rate-->
                             </div><!--Order Content End-->
-                           </div><!--Pic Container End Here-->
                        </div><!--List of medicines End Here-->
                    <!--Block of list of medicine end here---------------------------------------------------------------->   
                    
         <!--Block of list of medicine start here--------------------------------------------------------------------------->
         	<div class="col-xs-12"><!--List of medicine Start Here-->
-                       		<div class="col-xs-12 order-pic-container sidebar-green">
-                            	<div class="col-xs-12 order-content"> 
+                            	<div class="col-xs-12 order-content sidebar-green"> 
                             	<div class="col-xs-7 medicine-name-div"><!--Name of Medicine Start Here-->
-                                	<h4>Crocin</h4>
+                                	<h4  class="medicine-name">Crocin</h4>
                                 </div><!--Name of Medicine End Here-->
                                 
                                 <div class="col-xs-2 medicine-quantity-div"><!--Quantity-->
@@ -79,16 +83,14 @@
                                 	<h5 class="tab-strip">Strip</h5>
                                 </div><!--Rate-->
                             </div><!--Order Content End-->
-                           </div><!--Pic Container End Here-->
                        </div><!--List of medicines End Here-->
                    <!--Block of list of medicine end here---------------------------------------------------------------->    
                    
          <!--Block of list of medicine start here--------------------------------------------------------------------------->
         	<div class="col-xs-12"><!--List of medicine Start Here-->
-                       		<div class="col-xs-12 order-pic-container sidebar-purple">
-                            	<div class="col-xs-12 order-content"> 
+                            	<div class="col-xs-12 order-content  sidebar-purple"> 
                             	<div class="col-xs-7 medicine-name-div"><!--Name of Medicine Start Here-->
-                                	<h4>Sumo</h4>
+                                	<h4 class="medicine-name">Sumo</h4>
                                 </div><!--Name of Medicine End Here-->
                                 
                                 <div class="col-xs-2 medicine-quantity-div"><!--Quantity-->
@@ -100,20 +102,18 @@
                                 	<h5 class="tab-strip">Tab</h5>
                                 </div><!--Rate-->
                             </div><!--Order Content End-->
-                           </div><!--Pic Container End Here-->
                        </div><!--List of medicines End Here-->
                    <!--Block of list of medicine end here---------------------------------------------------------------->    
                    
          <!--Block of list of medicine start here--------------------------------------------------------------------------->
         	<div class="col-xs-12"><!--List of medicine Start Here-->
-                       		<div class="col-xs-12 order-pic-container sidebar-orange">
-                            	<div class="col-xs-12 order-content"> 
+                            	<div class="col-xs-12 order-content  sidebar-orange"> 
                             	<div class="col-xs-7 medicine-name-div"><!--Name of Medicine Start Here-->
-                                	<h4>Acolyte</h4>
+                                	<h4 class="medicine-name">Acolyte</h4>
                                 </div><!--Name of Medicine End Here-->
                                 
                                 <div class="col-xs-2 medicine-quantity-div"><!--Quantity-->
-                                	<h5 class="medicine-quantity-heading"><span class="medicine-quantity">2</span>></h5>
+                                	<h5 class="medicine-quantity-heading"><span class="medicine-quantity">2</span></h5>
                                 	
                                 </div><!--Quantity-->
                                 
@@ -121,16 +121,14 @@
                                 	<h5 class="tab-strip">Strip</h5>
                                 </div><!--Rate-->
                             </div><!--Order Content End-->
-                           </div><!--Pic Container End Here-->
                        </div><!--List of medicines End Here-->
                    <!--Block of list of medicine end here---------------------------------------------------------------->    
                    
          <!--Block of list of medicine start here--------------------------------------------------------------------------->
         	<div class="col-xs-12"><!--List of medicine Start Here-->
-                       		<div class="col-xs-12 order-pic-container sidebar-green">
-                            	<div class="col-xs-12 order-content"> 
+                            	<div class="col-xs-12 order-content  sidebar-green"> 
                             	<div class="col-xs-7 medicine-name-div"><!--Name of Medicine Start Here-->
-                                	<h4>Benedryl</h4>
+                                	<h4 class="medicine-name">Benedryl</h4>
                                 </div><!--Name of Medicine End Here-->
                                 
                                 <div class="col-xs-2 medicine-quantity-div"><!--Quantity-->
@@ -142,7 +140,6 @@
                                 	<h5 class="tab-strip">Strip</h5>
                                 </div><!--Rate-->
                             </div><!--Order Content End-->
-                           </div><!--Pic Container End Here-->
                        </div><!--List of medicines End Here-->
                    <!--Block of list of medicine end here---------------------------------------------------------------->     
                        
@@ -157,16 +154,19 @@
                        
                    
              </div><!---DIV ENDS FOR ROW AREA-->  
-	</div><!--DIV ENDS FOR CONTAINER-FLUID-->
-    
-    			<footer id="footer">
-    				<ul id="footer-ul">
-						<li class="footer-li"><a class="footer-a" href="#"><img src="../image/money_bag-25.png"><!--<span class="small-circle icon-container footer-icon-align icon-center bg-darkOrange"><span class="icon-desc  footer-notification">5</span></span>--></a></li>
-						<li class="footer-li"><a class="footer-a" href="#"><img src="../image/briefcase_filled-25.png"></a></li>
-						<li class="footer-li"><a id="footer-rate" class="footer-a" href="#"><p><span>&#8377; </span><span>900</span></p></a></li>
-						<li class="footer-li"><a class="footer-a" href="#"><img src="../image/user_male-25.png"></a></li>
-					</ul>
-    			</footer>
+	<footer class="footer row">
+                <ul class="footer-ul col-xs-12">
+                        <li class="footer-li col-xs-3"><a href="#"><i  class="footer-menu-icon fa fa-cart-plus" ></i></a></li>
+
+                        <li class="footer-li col-xs-3"><a  href="#"><i class="footer-menu-icon footer-rupee-container"><span class="footer-menu-rupee">&#8377;</span><span >900</span></i></a></li>
+
+                        <li class="footer-li col-xs-3"><a href="#"><i  class="footer-menu-icon fa fa-credit-card"></i></a></li>
+
+
+                       <li class="footer-li col-xs-3" ><a   href="#"><i class="footer-menu-icon fa fa-user"></i></a></li>
+                </ul>
+            </footer>
+		</div><!--DIV ENDS FOR CONTAINER-FLUID-->
 	
 
     	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js" ></script>

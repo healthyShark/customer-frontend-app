@@ -142,13 +142,14 @@ body {
 	background-color:#E8E8E8;
 }
 .sidebar-purple {
-	background-color:#8000ff;
+	border-left:12px solid #8000ff;
 }
 .sidebar-orange {
-	background-color:#FF5500;
+	border-left:12px solid #FF5500;
+	
 }
 .sidebar-green {
-	background-color:#00b33b;
+	border-left:12px solid #00b33b;
 }
 .bg-dullred {
 	background-color:#db4437;

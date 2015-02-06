@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+    .circle {
+        height         : 170px; 
+        width          : 170px;
+        line-height    : 170px;
+        text-align     : center; 
+    }
+    
+    .icon-text{
+        font-size      : 90px;
+    }
+ 
+    .icon-desc{
+        font-size:25px;
+        margin-top:13px;
+        padding: 5px 15px 0 15px;
+    }
+ 
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+    .circle {
+        height         : 210px; 
+        width          : 210px;
+        line-height    : 210px;
+        text-align     : center; 
+    }
+    
+    .icon-text{
+        font-size      : 112px;
+    }
+  
+    .icon-desc{
+        font-size:31px;
+        margin-top:17px;
+        padding: 0 15px 0 15px;
+    }
+	
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+    
+    .circle {
+        height         : 250px; 
+        width          : 250px;
+        line-height    : 250px;
+        text-align:    : center;
+    }
+    
+     .icon-text{
+        font-size      : 137px;
+    }
+ 
+    .icon-desc{
+            font-size   : 40px;
+            margin-top  : 13px;
+            padding     : 15px 15px 0 15px;
+    }
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    .circle {
+        height         : 290px; 
+        width          : 290px;
+        line-height    : 290px;
+        text-align:    : center;
+    }
+    
+    .icon-text{
+        font-size      : 158px;
+    }
+    
+
+    .icon-desc{
+            font-size   : 46px;
+            margin-top  : 15px;
+            padding     : 0 15px 0 15px;
+            letter-spacing: 3px;
+    }
+    
+
+}
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
+
+
+
+
+
