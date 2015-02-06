@@ -2,6 +2,8 @@
 /* CSS Document */
 
 
+
+
 /*Order Info*/
 .order-status-result-danger {
 	padding-left:5px;
@@ -25,6 +27,7 @@
 	float:right;
 	padding-right:10px;
 	line-height:1.3;
+	font-size:20px;
 }
 .medicine-quantity {
 	padding-right:3px;
@@ -47,9 +50,388 @@
 	margin-bottom:0;
 	margin-top:0;
 	color:#999;
+	font-size:20px;
 	
 }
 /*Order Info*/
+
+
+
+
+/*Orders*/
+.order-pic-container {
+	
+	margin-top:0px;
+	box-shadow:0 2px 5px #AAA;
+	padding-right:0 !important;
+	padding-left:12px;
+	padding-top:0px;
+	margin-bottom:10px;
+}
+.order-pic-div {
+	padding:10px 0 10px 0;
+}
+.order-pic {
+	width:100%;
+	height:100%;
+}
+.order-notes {
+	color:#777;
+}
+
+.side-color {
+	width:100%;
+	height:100%;
+}
+.order-content {
+	background-color:#FFF;
+	padding-right:0px;
+	margin-right:0PX;
+	width:100%;
+	box-shadow:0 2px 5px #AAA;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	padding-top:5px;
+
+}
+
+
+
+.order-id {
+	margin-bottom:0px;
+	margin-top:15px;
+	color:#777;
+	font-size:14px;
+	text-transform:uppercase;
+	float:left;
+}
+.actual-price {
+	margin-bottom:0px;
+	margin-top:10px;
+	color:#555;
+	font-size:22px;
+}
+.estimated-price {
+	margin-bottom:0px;
+	margin-top:10px;
+	color:#999;
+	font-size:14px;
+}
+.date {
+	margin-bottom:10px;
+	margin-top:10px;
+	color:#777;
+	font-size:14px;
+}
+.order-status {
+	margin-bottom:10px;
+	margin-top:0px;
+	color:#999;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.repeat-icon {
+	font-size:20px;
+}
+
+.order-status-container {
+	padding-left:0px;
+}
+.order-repeat-div {
+	float:right;
+	padding:10px 0 10px 0;
+}
+.order-status-result {
+	padding-left:5px;
+}
+.estimated-price-padding {
+	padding-right:10px;
+}
+/*Orders*/
+
+/*Enter Medicine Manually*/
+.medicine-name-div {
+	padding-top:5px;
+	padding-left:0px;
+}
+.medicine-name {
+	font-size:20px;
+}
+.medicine-quantity-heading {
+	font-size:20px;
+}
+.medicine-quantity-div {
+	padding-top:5px;
+}
+.medicine-price-div {
+	padding-top:5px;
+}
+
+/*Enter Medicine Manually*/
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+	.order-id {
+		margin-top:18px;
+		font-size:25px;
+	}
+	.actual-price {
+		margin-top:15px;
+		font-size:35px;
+	}
+	.estimated-price {
+		margin-top:15px;
+		font-size:25px;
+	}
+	.date {
+		margin-top:15px;
+		font-size:25px;
+	}
+	.order-status {
+		margin-top:10px;
+		font-size:25px;
+
+	}
+	.repeat-icon {
+		font-size:23px;
+	}
+	
+	.sidebar-purple {
+		border-left:14px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:14px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:14px solid #00b33b;
+	}
+	.address-field-heading {
+		font-size:25px;
+		
+	}
+	.medicine-price {
+		font-size:25px;
+	}
+	.medicine-name {
+		font-size:25px;
+	}
+	.medicine-quantity-heading {
+		font-size:25px;
+	}
+	
+	.medicine-quantity {
+		font-size:25px;
+	}
+
+
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+   .order-id {
+		margin-top:22px;
+		font-size:31px;
+	}
+	.actual-price {
+		margin-top:15px;
+		font-size:44px;
+	}
+	.estimated-price {
+		margin-top:15px;
+		font-size:31px;
+	}
+	.date {
+		margin-top:15px;
+		font-size:31px;
+	}
+	.order-status {
+		margin-top:13px;
+		font-size:31px;
+
+	}
+	.repeat-icon {
+		font-size:29px;
+	}
+	
+	.sidebar-purple {
+		border-left:17px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:17px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:17px solid #00b33b;
+	}
+	.address-field-heading {
+		font-size:31px;
+		
+	}
+	.medicine-price {
+		font-size:31px;
+	}
+	.medicine-name {
+		font-size:31px;
+	}
+	.medicine-quantity-heading {
+		font-size:31px;
+	}
+	
+	.medicine-quantity {
+		font-size:31px;
+	}
+
+
+	
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+    .order-id {
+		margin-top:26px;
+		font-size:39px;
+	}
+	.actual-price {
+		margin-top:19px;
+		font-size:55px;
+	}
+	.estimated-price {
+		margin-top:19px;
+		font-size:39px;
+	}
+	.date {
+		margin-top:19px;
+		font-size:39px;
+	}
+	.order-status {
+		margin-top:17px;
+		font-size:39px;
+
+	}
+	.repeat-icon {
+		font-size:36px;
+	}
+	
+	.sidebar-purple {
+		border-left:20px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:20px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:20px solid #00b33b;
+	}
+	.address-field-heading {
+		font-size:39px;
+		
+	}
+	.medicine-price {
+		font-size:39px;
+	}
+	.medicine-name {
+		font-size:39px;
+	}
+	.medicine-quantity-heading {
+		font-size:39px;
+	}
+	
+	.medicine-quantity {
+		font-size:39px;
+	}
+
+
+
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    
+    .order-id {
+		margin-top:30px;
+		font-size:40px;
+	}
+	.actual-price {
+		margin-top:22px;
+		font-size:58px;
+	}
+	.estimated-price {
+		margin-top:22px;
+		font-size:40px;
+	}
+	.date {
+		margin-top:22px;
+		font-size:40px;
+	}
+	.order-status {
+		margin-top:19px;
+		font-size:40px;
+
+	}
+	.repeat-icon {
+		font-size:41px;
+	}
+	.sidebar-purple {
+		border-left:25px solid #8000ff;
+	}
+	.sidebar-orange {
+		border-left:25px solid #FF5500;
+	
+	}
+	.sidebar-green {
+		border-left:25px solid #00b33b;
+	}
+	.address-field-heading {
+		font-size:40px;
+		
+	}
+	.medicine-price {
+		font-size:40px;
+	}
+	.medicine-name {
+		font-size:40px;
+	}
+	.medicine-quantity-heading {
+		font-size:40px;
+	}
+	
+	.medicine-quantity {
+		font-size:40px;
+	}
+
+}
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
+
+
+
+
 
 
 
