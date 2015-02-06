@@ -7,8 +7,8 @@
 	
 }
 .textbox {
-	margin-top:0.9em;
-	margin-bottom:0.9em;
+	margin-top:2em;
+	margin-bottom:2em;
 	 
 }
 .form-control {
@@ -17,6 +17,8 @@
 	border-bottom: 1px solid #AAA;
 	-webkit-box-shadow:none;
 	background:#EEE;
+	font-size:28px;
+	height:auto;
 }
 
 .form-control:focus {
@@ -26,11 +28,121 @@
           box-shadow: none;
 }
 
-.contact-button {
+.contact-button-div {
 	text-align:center;
 	padding-top:1.5em;
 	padding-bottom:10px;
+	
+}
+.contact-button {
+	font-size:25px;
+	padding:10px 20px;
 }
 /*Contact Info*/
+
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+    .form-control {
+		border-bottom: 1.2px solid #AAA;
+		font-size:28px;
+
+	}
+
+
+	.contact-button {
+		font-size:25px;
+		padding:10px 20px;
+	}
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+    .form-control {
+		border-bottom: 1.2px solid #AAA;
+		font-size:35px;
+		padding-top:30px;
+
+	}
+
+
+	.contact-button {
+		font-size:35px;
+		padding:13px 25px;
+	}
+	
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+   .form-control {
+		border-bottom: 1.2px solid #AAA;
+		font-size:39px;
+		padding-top:30px;
+
+	}
+
+
+	.contact-button {
+		font-size:40px;
+		padding:17px 31px;
+	}
+	
+	.contact-button-div {
+		margin-top:40px;
+	}
+	
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    .form-control {
+		border-bottom: 1.2px solid #AAA;
+		font-size:42px;
+		padding-top:50px;
+
+	}
+
+
+	.contact-button {
+		font-size:40px;
+		padding:17px 31px;
+	}
+	
+	.contact-button-div {
+		margin-top:40px;
+	}
+	
+
+}
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
+
+
 
 
