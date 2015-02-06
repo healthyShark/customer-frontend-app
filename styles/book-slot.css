@@ -72,5 +72,41 @@
 .switch-button-label {
 	font-size:14px;
 }
+.slot-purple {
+	background-color:#8000ff;
+}
+.slot-orange {
+	background-color:#FF5500;
+	
+}
+.slot-green {
+	background-color:#00b33b;
+}
+.slot-red {
+	background-color:#db4437;
+}
+.wallet-help {
+	color:#428bca;
+	float:right;
+	font-size:16px;
+	margin-top:0px;
+}
+.wallet-price {
+	color:#AAA;
+	font-size:40px;
+	text-align:center;
+}
+	.switch-button-label {
+		font-size:20px;
+	}
+	.switch-button-background { 
+		height:20px !important;
+		width:60px !important;
+	}
+	.switch-button-button {
+		height:20px !important;
+		width:44px !important;
+	}
+
 
 /*Book a Slot*/

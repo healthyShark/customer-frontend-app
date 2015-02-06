@@ -23,7 +23,6 @@
 }
 .wallet-addcash {
 	float:right;
-	box-shadow:0 3px 10px #999;
 	
 }
 .wallet-icon-text {
@@ -39,6 +38,157 @@
 	border-top:#DDD;
 	background:#FFF;
 }
+.add-button {
+	padding:10px 30px;
+	font-size:25px;
+}
 
 /*Wallet*/
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+    .wallet-text {
+		font-size:30px;
+		margin-top:20px;
+	}
+	.wallet-help {
+		color:#428bca;
+		font-size:30px;
+		margin-top:10px;
+	}
+	.wallet-price {
+		font-size:55px;
+	}
+	
+	.wallet-addcash {
+		float:right;
+	}
+	.wallet-addcash-div {
+		margin-bottom:20px;
+		margin-top:10px;
+		
+	}
+ 
+}
+
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+    .wallet-text {
+		font-size:37px;
+		margin-top:25px;
+	}
+	.wallet-help {
+		color:#428bca;
+		font-size:37px;
+		margin-top:13px;
+	}
+	.wallet-price {
+		font-size:67px;
+	}
+	
+	.wallet-addcash {
+		float:right;
+	}
+	.wallet-addcash-div {
+		margin-bottom:25px;
+		margin-top:10px;
+		
+	}
+	.add-button {
+		padding:10px 33px;
+		font-size:27px;
+}
+ 
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+    
+    .wallet-text {
+		font-size:46px;
+		margin-top:31px;
+	}
+	.wallet-help {
+		color:#428bca;
+		font-size:46px;
+		margin-top:16px;
+	}
+	.wallet-price {
+		font-size:82px;
+	}
+	
+	.wallet-addcash {
+		float:right;
+	}
+	.wallet-addcash-div {
+		margin-bottom:31px;
+		margin-top:10px;
+		
+	}
+	.add-button {
+		padding:15px 40px;
+		font-size:33px;
+	}
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+    .wallet-text {
+		font-size:50px;
+		margin-top:35px;
+	}
+	.wallet-help {
+		color:#428bca;
+		font-size:50px;
+		margin-top:19px;
+	}
+	.wallet-price {
+		font-size:90px;
+		padding-top:30px;
+	}
+	
+	.wallet-addcash {
+		float:right;
+	}
+	.wallet-addcash-div {
+		margin-bottom:34px;
+		margin-top:10px;
+		
+	}
+	.add-button {
+		padding:17px 46px;
+		font-size:34px;
+	}
+    
+
+}
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
+
+
 
