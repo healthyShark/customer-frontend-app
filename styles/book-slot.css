@@ -6,17 +6,28 @@
 	 position:fixed;
  	 left:50%;
 }
+
 .slot-circle {
 	position:relative;
-	width:200px;
-	height:200px;
+	width:300px;
+	height:300px;
 	margin-left:auto;
 	margin-right:auto;
 	left:-50%;
 	margin-top:75px;
 	
-	
 }
+.today-tomorrow-group {
+	position:relative;
+	width:300px;
+	height:40px;
+	text-transform:uppercase;
+	left:-40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
 
 .quarter {
 	position:absolute;
@@ -27,26 +38,31 @@
 .quarter:hover {
 	background-color:#EEE;
 }
+
 .quarter1 {
 	top:0;
 	left:0;
 	border-radius:100% 0 0 0;
 }
+
 .quarter2 {
 	top:0;
 	right:0;
 	border-radius:0 100% 0 0 ;
 }
+
 .quarter3 {
 	bottom:0;
 	left:0;
 	border-radius:0 0 0 100%;
 }
+
 .quarter4 {
 	bottom:0;
 	right:0;
 	border-radius:0 0 100% 0 ;
 }
+
 .cutout {
 	width:50%;
 	height:50%;
@@ -56,28 +72,14 @@
 	left:25%;
 	border-radius:50%;
 	pointer-events:none;
-	}
+}
+
 	
-.today-tomorrow-group {
-	width:300px;
-	height:40px;
-	text-transform:uppercase;
-	left:-50%;
-	padding-left:50px;
-	margin-top:20px;
-}
-.switch-button-label.off {
-	color:#777;
-}
-.switch-button-label {
-	font-size:14px;
-}
 .slot-purple {
 	background-color:#8000ff;
 }
 .slot-orange {
 	background-color:#FF5500;
-	
 }
 .slot-green {
 	background-color:#00b33b;
@@ -85,6 +87,7 @@
 .slot-red {
 	background-color:#db4437;
 }
+
 .wallet-help {
 	color:#428bca;
 	float:right;
@@ -96,17 +99,193 @@
 	font-size:40px;
 	text-align:center;
 }
-	.switch-button-label {
-		font-size:20px;
+
+
+.switch-button-label.off {
+	color:#777;
+}
+.switch-button-label {
+	font-size:20px;
+}
+
+.switch-button-background { 
+	height:20px !important;
+	width:60px !important;
+}
+.switch-button-button {
+	height:20px !important;
+	width:44px !important;
+}
+
+
+/*----------------------------------------------------AREA FOR  ADJUSTMENT----------------------------------------------------*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+
+/* Samsung galaxy grand                 480 x 800                 */
+
+
+@media ( min-device-width : 480px) and (max-device-width: 570px)
+{
+   
+	.wallet-help {
+		color:#428bca;
+		font-size:30px;
+		margin-top:10px;
 	}
+	.wallet-price {
+		font-size:55px;
+	}
+	.slot-circle {
+		width:300px;
+		height:300px;
+		margin-top:150px;
+	}
+	.today-tomorrow-group {
+		width:480px;
+		height:40px;
+		margin-top:50px;
+	}
+	.switch-button-label {
+		font-size:28px;
+	}
+	
 	.switch-button-background { 
-		height:20px !important;
-		width:60px !important;
+		height:30px !important;
+		width:84px !important;
 	}
 	.switch-button-button {
-		height:20px !important;
-		width:44px !important;
+		height:30px !important;
+		width:60px !important;
 	}
+ 
+}
 
+
+
+/*Increase all by 25%*/
+@media ( min-device-width : 571px) and (max-device-width: 649px)
+{
+    
+	.wallet-help {
+		color:#428bca;
+		font-size:37px;
+		margin-top:13px;
+	}
+	.wallet-price {
+		font-size:67px;
+	}
+	.slot-circle {
+		width:350px;
+		height:350px;
+		margin-top:200px;
+	}
+	.today-tomorrow-group {
+		width:570px;
+		height:40px;
+		margin-top:65px;
+	}
+	.switch-button-label {
+		font-size:32px;
+	}
+	.switch-button-background { 
+		height:37px !important;
+		width:84px !important;
+	}
+	.switch-button-button {
+		height:37px !important;
+		width:60px !important;
+	}
+ 
+	
+ 
+}
+
+
+/*25% increment on previous*/
+
+/*Supported devices with actual screen resolutions not the base resolution*/
+/* Samsung galaxy grand 2               720 x 1280                */
+/* Moto g                               720 x 1280                */
+@media ( min-device-width : 650px) and (max-device-width: 770px)
+{
+    
+	.wallet-help {
+		color:#428bca;
+		font-size:46px;
+		margin-top:16px;
+	}
+	.wallet-price {
+		font-size:82px;
+	}
+	.slot-circle {
+		width:400px;
+		height:400px;
+		margin-top:265px;
+	}
+	.today-tomorrow-group {
+		width:650px;
+		height:40px;
+		margin-top:90px;
+	}
+	.switch-button-label {
+		font-size:40px;
+	}
+	.switch-button-background { 
+		height:45px !important;
+		width:104px !important;
+	}
+	.switch-button-button {
+		height:45px !important;
+		width:80px !important;
+	}
+	
+}
+
+/*15% Increment*/
+/*APPROX 25 PERCENTAGE INCREASE IN  VALUE OF PREVIOUS SUPPORTED VALUES */
+/*Supported devices with actual screen resolutions 960px and above */
+
+/* IPhone 6                             960 x 1704                */
+
+@media ( min-device-width : 771px)
+{
+    
+	.wallet-help {
+		color:#428bca;
+		font-size:50px;
+		margin-top:19px;
+	}
+	.wallet-price {
+		font-size:90px;
+		padding-top:30px;
+	}
+	.slot-circle {
+		width:450px;
+		height:450px;
+		margin-top:300px;
+	}
+	.today-tomorrow-group {
+		width:771px;
+		height:40px;
+		margin-top:120px;
+	}
+	.switch-button-label {
+		font-size:43px;
+	}
+	.switch-button-background { 
+		height:50px !important;
+		width:134px !important;
+	}
+	.switch-button-button {
+		height:50px !important;
+		width:110px !important;
+	}
+    
+
+}
+
+
+/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
 
 /*Book a Slot*/
