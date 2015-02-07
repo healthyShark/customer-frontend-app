@@ -10,9 +10,11 @@
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="../bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css">
         <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="../bower_components/jQuery-switchButton-master/jquery.switchButton.css">
        <!-- <link rel="stylesheet" href="../bower_components/flat-ui/dist/css/flat-ui.css">-->
         <link rel="stylesheet" href="../styles/mystyle.css">
+        <link rel="stylesheet" href="../styles/prescription-gallery.css">
         
         <!-- endbuild -->
 
@@ -21,14 +23,16 @@
     <body>
    	    <!--MAIN CONATINER ELEMENT OF BOOTSTRAP--> 
     	<div class="container-fluid" >
-                <div class="row">
-                   <h1 class="col-xs-12 title" id="nav-header"><span class="header-arrow"><img src="../image/left4-25.png"></span><span >Prescription Gallery</span><span class="header-menu"><img src="../image/menu-25.png"></span> </h1><!--DIV ENDS FOR MAIN TILE-->
-                   
+                   <h1 class="col-xs-12 fixed" id="nav-header">
+                 		<span class="menu-title-header">Prescription Gallery</span>
+                 		<span class="glyphicon glyphicon-chevron-left header-menu"></span>
+        	   	   </h1><!--DIV ENDS FOR MAIN TILE-->
+                   <div class="row main-area"> 
        <!--BLOCK FIRST START HERE---------------------------------------------------------------------------->
                    <div class="col-xs-12"><!--Prescription Image Start Here-->
                        		<div class="col-xs-12 thumbnail-prescription-pic-container">
                             	<div class="col-xs-12 prescription-pic-div"><!--Presccription Pic Start Here-->
-                                	<img class="prescription-pic" src="../image/10670-c_96_1.jpg"/>
+                                	<img class="prescription-pic" src="../images/10670-c_96_1.jpg"/>
                                 </div><!--Prescription Pic End Here-->
                             </div>
                        
@@ -40,40 +44,40 @@
        	<div class="row thumbnail-row">
   			<div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div>
           <div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div>
           <div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div><div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div>
           <div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div>
           <div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div>
           <div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div><div class="col-xs-3 pic-thumbnail">
     			<a href="#" class="thumbnail pic-thumbnail-link">
-      				<img src="../image/10670-c_96_1.jpg" alt="...">
+      				<img src="../images/10670-c_96_1.jpg" alt="...">
     			</a>
   		  </div>
 		</div>   
@@ -89,17 +93,21 @@
                        
                    
              </div><!---DIV ENDS FOR ROW AREA-->  
-	</div><!--DIV ENDS FOR CONTAINER-FLUID-->
-    
-    			<footer id="footer">
-    				<ul id="footer-ul">
-						<li class="footer-li"><a class="footer-a" href="#"><img src="../image/money_bag-25.png"><!--<span class="small-circle icon-container footer-icon-align icon-center bg-darkOrange"><span class="icon-desc  footer-notification">5</span></span>--></a></li>
-						<li class="footer-li"><a class="footer-a" href="#"><img src="../image/briefcase_filled-25.png"></a></li>
-						<li class="footer-li"><a id="footer-rate" class="footer-a" href="#"><p><span>&#8377; </span><span>900</span></p></a></li>
-						<li class="footer-li"><a class="footer-a" href="#"><img src="../image/user_male-25.png"></a></li>
-					</ul>
-    			</footer>
 	
+    
+    			<footer class="footer row">
+                <ul class="footer-ul col-xs-12">
+                        <li class="footer-li col-xs-3"><a href="#"><i  class="footer-menu-icon fa fa-cart-plus" ></i></a></li>
+
+                        <li class="footer-li col-xs-3"><a  href="#"><i class="footer-menu-icon footer-rupee-container"><span class="footer-menu-rupee">&#8377;</span><span >900</span></i></a></li>
+
+                        <li class="footer-li col-xs-3"><a href="#"><i  class="footer-menu-icon fa fa-credit-card"></i></a></li>
+
+
+                       <li class="footer-li col-xs-3" ><a   href="#"><i class="footer-menu-icon fa fa-user"></i></a></li>
+                </ul>
+            </footer> 
+            </div><!--DIV ENDS FOR CONTAINER-FLUID-->
 
     	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js" ></script>
         <script type="text/javascript" src="../bower_components/jquery-ui/jquery-ui.js"></script>
