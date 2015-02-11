@@ -28,6 +28,9 @@ body {
         -ms-text-size-adjust: 100%;
 		 background:#EEE;
 }
+#nav-header {
+	padding-left:0;
+}
 .main-area {
 	margin-bottom:70px;
 }
