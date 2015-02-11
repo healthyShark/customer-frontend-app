@@ -82,6 +82,14 @@
 	padding:20px 0 20px 0;
 	text-align:center;
 }
+textarea {
+ 		background: url(../images/notebookless480.png) repeat-y;
+ 		font: normal 22px verdana;
+ 		width:100%;
+ 		line-height: 42px;
+ 		padding: 0px 10px;
+ 		border: solid 1px #000;
+	}
 
 
 /*ENTER more medicine*/
@@ -134,6 +142,15 @@
 	.add-note {
 		font-size:30px;
 	}
+	
+	textarea {
+ 		background: url(../images/notebook480-570.png) repeat-y;
+ 		font: normal 30px verdana;
+ 		width:100%;
+ 		line-height: 52px;
+ 		padding: 0px 10px;
+ 		border: solid 1px #000;
+	}
  
 }
 
@@ -177,6 +194,14 @@
 	
 	.add-note {
 		font-size:37px;
+	}
+	textarea {
+ 		background: url(../images/notebook650-770.png) repeat-y;
+ 		font: normal 35px verdana;
+ 		width:100%;
+ 		line-height: 60px;
+ 		padding: 0px 10px;
+ 		border: solid 1px #000;
 	}
 	
 }
@@ -226,6 +251,16 @@
 	.add-note {
 		font-size:45px;
 	}
+	textarea {
+ 		background: url(../images/notebook650-770.png) repeat-y;
+ 		font: normal 40px verdana;
+ 		width:100%;
+ 		line-height: 60px;
+ 		padding: 0px 10px;
+ 		border: solid 1px #000;
+	}
+    
+	
 	
 }
 
@@ -276,12 +311,16 @@
 	.add-note {
 		font-size:50px;
 	}
+	
+	textarea {
+ 		background: url(../images/notebook771.png) repeat-y;
+ 		font: normal 50px verdana;
+ 		width:100%;
+ 		line-height: 78px;
+ 		padding: 0px 10px;
+ 		border: solid 1px #000;
+	}
     
 
 }
-
-
-/*-----------------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/
-
-
-
+/*---------------------------------------------------------AREA ENDS FOR ADJUSTMENT-------------------------------*/

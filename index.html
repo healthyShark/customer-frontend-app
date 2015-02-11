@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="styles/mystyle.css">
+        <link rel="stylesheet" href="styles/loading-bar.css">
         <link rel="stylesheet" href="styles/index.css">
         <!-- endbuild -->
 
@@ -19,22 +20,24 @@
     <body>
    	    <!--MAIN CONATINER ELEMENT OF BOOTSTRAP--> 
     	<div class="container-fluid" >
-        <h1 class="col-xs-12 fixed" id="nav-header">
+        <div class="col-xs-12 fixed" id="nav-header">
                  <span class="menu-title-header">Buy Medicine</span>
                  <!--<img id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" src="images/menu-64.png">-->
                  	<div class="dropdown">
   						<span class="glyphicon glyphicon-align-justify dropdown-toggle header-menu" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true"></span>
   						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Payment</a></li>
-    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Orders</a></li>
-                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Estimation</a></li>
-                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
-                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
-                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Feedback</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Feedback</a></li>
                         	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Help</a></li>
+                        	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Terms & Conditions</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
   						</ul>
 					</div>
-         </h1><!--DIV ENDS FOR MAIN TILE-->
+                 <div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+  </div>
+</div>
+         </div><!--DIV ENDS FOR MAIN TILE-->
          
          
             <div class="row main-area">

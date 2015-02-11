@@ -28,6 +28,9 @@ body {
         -ms-text-size-adjust: 100%;
 		 background:#EEE;
 }
+.main-area {
+	margin-bottom:70px;
+}
 
 /*Style for containers element */
 .tile-area{

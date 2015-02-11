@@ -14,6 +14,7 @@
 	min-width:400px;
 	opacity:1;
 	background:#333;
+
 	
 }
 .dropdown-menu>li>a {
@@ -37,6 +38,10 @@
 }
 .menu-orange {
 	background-color:#FF5500;
+}
+
+.progress-bar {
+	height:20%;
 }
 /*Side Menu*/
 
@@ -69,13 +74,17 @@
         padding: 5px 15px 0 15px;
     }
     .dropdown-menu {
-	min-width:400px;
+		min-width:400px;
+		min-height:2000px;
 	
 	}
 	.dropdown-menu>li>a {
 	font-size:23px;
 	}
    
+   	.progress-bar {
+		height:20%;
+	}
     
     
 
@@ -104,11 +113,15 @@
     }
 	
      .dropdown-menu {
-	min-width:500px;
+		min-width:500px;
+		min-height:2500px;
 	
 	}
 	.dropdown-menu>li>a {
-	font-size:29px;
+		font-size:29px;
+	}
+	.progress-bar {
+		height:20%;
 	}
    
     
@@ -143,11 +156,15 @@
     }
 	
 	 .dropdown-menu {
-	min-width:625px;
+		min-width:625px;
+		min-height:3000px;
 	
 	}
 	.dropdown-menu>li>a {
-	font-size:36px;
+		font-size:36px;
+	}
+	.progress-bar {
+		height:25%;
 	}
     
 
@@ -182,13 +199,18 @@
     }
     
 	.dropdown-menu {
-	min-width:725px;
+		min-width:725px;
+		min-height:3500px;
 	
 	}
 	.dropdown-menu>li>a {
-	font-size:41px;
+		font-size:41px;
 	}
-
+	
+	.progress-bar {
+		height:25%;
+	}
+	
 }
 
 
