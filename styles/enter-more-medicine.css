@@ -88,8 +88,16 @@ textarea {
  		width:100%;
  		line-height: 42px;
  		padding: 0px 10px;
- 		border: solid 1px #000;
+		border:none;
 	}
+.remove-glyphicon {
+	float:right;
+	font-size:30px;
+	padding-right:5px;
+	padding-bottom:5px;
+	color:#AAA;
+	font-weight:normal;
+}
 
 
 /*ENTER more medicine*/
@@ -149,8 +157,14 @@ textarea {
  		width:100%;
  		line-height: 52px;
  		padding: 0px 10px;
- 		border: solid 1px #000;
+ 		
 	}
+	.remove-glyphicon {
+		font-size:30px;
+		padding-right:5px;
+		padding-bottom:5px;
+	}
+
  
 }
 
@@ -201,7 +215,12 @@ textarea {
  		width:100%;
  		line-height: 60px;
  		padding: 0px 10px;
- 		border: solid 1px #000;
+ 		
+	}
+	.remove-glyphicon {
+		font-size:35px;
+		padding-right:5px;
+		padding-bottom:5px;
 	}
 	
 }
@@ -257,7 +276,12 @@ textarea {
  		width:100%;
  		line-height: 60px;
  		padding: 0px 10px;
- 		border: solid 1px #000;
+ 		
+	}
+	.remove-glyphicon {
+		font-size:40px;
+		padding-right:5px;
+		padding-bottom:5px;
 	}
     
 	
@@ -318,7 +342,12 @@ textarea {
  		width:100%;
  		line-height: 78px;
  		padding: 0px 10px;
- 		border: solid 1px #000;
+ 	
+	}
+	.remove-glyphicon {
+		font-size:45px;
+		padding-right:5px;
+		padding-bottom:5px;
 	}
     
 
